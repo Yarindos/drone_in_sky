@@ -92,16 +92,20 @@ def parse_telegram():
                     time_str = datetime.now().strftime("%H:%M")
                     sort_key = datetime.now().timestamp()
                 
-                channel_name = channel.replace('_', ' ').capitalize()
-                news.append({
-                    "time": time_str, 
-                    "sort_key": sort_key,
-                    "text": raw_text[:120] + "..." if len(raw_text) > 120 else raw_text,
-                    "channel": channel_name
-                })
+                # Додаємо новину ТІЛЬКИ якщо вона містить ключові слова загроз
+                is_threat_news = any(re.search(pattern, text) for pattern in THREAT_TYPES.keys())
                 
-                # Аналіз на загрози (тільки свіжі - останні 2 години)
-                if (datetime.now().timestamp() - sort_key) > 7200:
+                if is_threat_news:
+                    channel_name = channel.replace('_', ' ').capitalize()
+                    news.append({
+                        "time": time_str, 
+                        "sort_key": sort_key,
+                        "text": raw_text[:150] + "..." if len(raw_text) > 150 else raw_text,
+                        "channel": channel_name
+                    })
+                
+                # Аналіз на загрози для відображення на мапі (тільки свіжі - останні 1 година)
+                if (datetime.now().timestamp() - sort_key) > 3600:
                     continue
 
                 found_type = None

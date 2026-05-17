@@ -4,15 +4,15 @@ const map = L.map('map', {
     zoomControl: false
 });
 
-// Додаємо стиль темної мапи (Jawg Dark)
-L.tileLayer('https://{s}.tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token=guest', {
-    attribution: '&copy; JawgMaps',
-    minZoom: 0,
-    maxZoom: 22
+// Додаємо стиль темної мапи (CartoDB Dark Matter) - надійніший варіант
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+    subdomains: 'abcd',
+    maxZoom: 20
 }).addTo(map);
 
-// CSS Фільтр для "радарного" вигляду
-document.getElementById('map').style.filter = "hue-rotate(10deg) brightness(0.8) contrast(1.2) saturate(0.5)";
+// CSS Фільтр для "радарного" вигляду (трохи м'якший)
+document.getElementById('map').style.filter = "hue-rotate(150deg) brightness(0.9) contrast(1.1) saturate(0.6)";
 
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
