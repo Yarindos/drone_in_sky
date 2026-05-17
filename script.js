@@ -1,22 +1,25 @@
 const map = L.map('map', {
-    center: [48.3794, 31.1656], // Center of Ukraine
+    center: [48.3794, 31.1656],
     zoom: 6,
-    zoomControl: false
+    zoomControl: false,
+    fadeAnimation: true,
+    markerZoomAnimation: true
 });
 
-// Додаємо стиль темної мапи (CartoDB Dark Matter) - надійніший варіант
+// Стабільне джерело мапи (CartoDB Dark Matter)
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+    attribution: '&copy; CARTO',
     subdomains: 'abcd',
-    maxZoom: 20
+    maxZoom: 19
 }).addTo(map);
 
-// CSS Фільтр для "радарного" вигляду (трохи м'якший)
-document.getElementById('map').style.filter = "hue-rotate(150deg) brightness(0.9) contrast(1.1) saturate(0.6)";
+// Додаємо шар радара (візуальний ефект)
+const radarOverlay = document.createElement('div');
+radarOverlay.id = 'radar-sweep';
+document.getElementById('map').appendChild(radarOverlay);
 
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-// Типи іконок
 const icons = {
     shahed: L.icon({ iconUrl: 'icons/shahed_real.svg', iconSize: [45, 45], iconAnchor: [22, 22] }),
     cruise: L.icon({ iconUrl: 'icons/missile_cruise.svg', iconSize: [40, 40], iconAnchor: [20, 20] }),
@@ -24,64 +27,61 @@ const icons = {
     ukr_drone: L.icon({ iconUrl: 'icons/ukr_drone.svg', iconSize: [45, 45], iconAnchor: [22, 22] })
 };
 
-const threats = [];
+let threats = [];
 
-// Функція для додавання загрози на мапу
-function addThreat(type, lat, lon, angle, label, location, time) {
-    const marker = L.marker([lat, lon], {
-        icon: icons[type],
-        interactive: true
-    }).addTo(map);
+function addThreat(t) {
+    const marker = L.marker([t.lat, t.lon], { icon: icons[t.type] }).addTo(map);
     
-    // Обертання та пульсація через CSS класи
-    marker.on('add', function() {
-        const img = marker._icon;
-        if (img) {
-            img.classList.add('pulse-animation');
-            img.style.transformOrigin = 'center';
-            img.style.transform += ` rotate(${angle}deg)`;
-        }
-    });
+    // Анімація та поворот після додавання на карту
+    const iconElement = marker.getElement();
+    if (iconElement) {
+        iconElement.classList.add('pulse-animation');
+        iconElement.style.transform += ` rotate(${t.angle}deg)`;
+    }
 
-    // Надпис тільки при наведенні (не постійно)
-    const popupContent = `
+    const tooltipContent = `
         <div class="custom-popup">
-            <div class="popup-title">${label}</div>
-            <div class="popup-loc">${location}</div>
-            <div class="popup-time">${time}</div>
+            <div class="popup-title">${t.name}</div>
+            <div class="popup-loc">ЛОКАЦІЯ: ${t.location}</div>
+            <div class="popup-time">ВИЯВЛЕНО: ${t.time}</div>
         </div>
     `;
-    marker.bindTooltip(popupContent, { sticky: true, className: 'tactical-tooltip' });
+    marker.bindTooltip(tooltipContent, { sticky: true, className: 'tactical-tooltip' });
     threats.push(marker);
 }
 
-// Функція завантаження даних (заглушка)
 function loadData() {
-    fetch('data.json')
+    fetch('data.json?t=' + Date.now()) // Запобігання кешуванню
         .then(res => res.json())
         .then(data => {
-            // Очищення старих маркерів
             threats.forEach(m => map.removeLayer(m));
-            threats.length = 0;
+            threats = [];
 
-            // Додавання нових
-            data.threats.forEach(t => {
-                addThreat(t.type, t.lat, t.lon, t.angle, t.name, t.location, t.time);
-            });
+            if (data.threats) {
+                data.threats.forEach(addThreat);
+            }
 
-            // Оновлення новин
             const newsList = document.getElementById('news-list');
             newsList.innerHTML = '';
-            data.news.forEach(n => {
-                const item = document.createElement('div');
-                item.className = 'news-item';
-                item.innerHTML = `<span class="news-time">${n.time}</span> ${n.text}`;
-                newsList.appendChild(item);
-            });
+            if (data.news) {
+                data.news.forEach(n => {
+                    const item = document.createElement('div');
+                    item.className = 'news-item';
+                    item.innerHTML = `
+                        <span class="news-channel">${n.channel}</span>
+                        <span class="news-time">[${n.time}]</span> ${n.text}
+                    `;
+                    newsList.appendChild(item);
+                });
+            }
         })
-        .catch(err => console.error("Помилка завантаження даних:", err));
+        .catch(err => {
+            console.error("Помилка завантаження даних:", err);
+        });
 }
 
-// Початкове завантаження та інтервал
+// Виклик invalidateSize для коректного відображення мапи в flex-контейнері
+setTimeout(() => map.invalidateSize(), 500);
+
 loadData();
-setInterval(loadData, 10000); // Оновлення кожні 10 сек
+setInterval(loadData, 15000);
