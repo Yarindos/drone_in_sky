@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone In Sky - Моніторинг повітряних загроз</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar">
+        <h1>Drone In Sky</h1>
+        <div id="status">Стан: <span class="online">ОНЛАЙН</span></div>
+        <div id="legend">
+            <h3>Легенда</h3>
+            <div class="item"><img src="icons/shahed.svg" width="20"> Шахед / Дрон-камікадзе</div>
+            <div class="item"><img src="icons/missile_cruise.svg" width="20"> Крилата ракета</div>
+            <div class="item"><img src="icons/missile_ballistic.svg" width="20"> Балістична ракета</div>
+        </div>
+        <div id="news-feed">
+            <h3>Останні новини (Telegram)</h3>
+            <div id="news-list">Завантаження новин...</div>
+        </div>
+    </div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
