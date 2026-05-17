@@ -13,11 +13,6 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     maxZoom: 19
 }).addTo(map);
 
-// Додаємо шар радара (візуальний ефект)
-const radarOverlay = document.createElement('div');
-radarOverlay.id = 'radar-sweep';
-document.getElementById('map').appendChild(radarOverlay);
-
 L.control.zoom({ position: 'bottomright' }).addTo(map);
 
 const icons = {
@@ -32,12 +27,16 @@ let threats = [];
 function addThreat(t) {
     const marker = L.marker([t.lat, t.lon], { icon: icons[t.type] }).addTo(map);
     
-    // Анімація та поворот після додавання на карту
-    const iconElement = marker.getElement();
-    if (iconElement) {
-        iconElement.classList.add('pulse-animation');
-        iconElement.style.transform += ` rotate(${t.angle}deg)`;
-    }
+    // Додаємо анімацію та поворот через невелику затримку, щоб елемент встиг створитися
+    setTimeout(() => {
+        const iconElement = marker.getElement();
+        if (iconElement) {
+            iconElement.classList.add('pulse-animation');
+            // Зберігаємо оригінальний translate, який Leaflet задає через inline style
+            const currentTransform = iconElement.style.transform;
+            iconElement.style.transform = `${currentTransform} rotate(${t.angle}deg)`;
+        }
+    }, 100);
 
     const tooltipContent = `
         <div class="custom-popup">
@@ -51,7 +50,7 @@ function addThreat(t) {
 }
 
 function loadData() {
-    fetch('data.json?t=' + Date.now()) // Запобігання кешуванню
+    fetch('data.json?t=' + Date.now())
         .then(res => res.json())
         .then(data => {
             threats.forEach(m => map.removeLayer(m));
@@ -75,13 +74,13 @@ function loadData() {
                 });
             }
         })
-        .catch(err => {
-            console.error("Помилка завантаження даних:", err);
-        });
+        .catch(err => console.error("Data load error:", err));
 }
 
-// Виклик invalidateSize для коректного відображення мапи в flex-контейнері
-setTimeout(() => map.invalidateSize(), 500);
+// Примусове оновлення розміру мапи
+window.addEventListener('load', () => {
+    setTimeout(() => map.invalidateSize(), 1000);
+});
 
 loadData();
-setInterval(loadData, 15000);
+setInterval(loadData, 30000);

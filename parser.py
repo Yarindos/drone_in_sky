@@ -115,13 +115,19 @@ def parse_telegram():
                         break
                 
                 if found_type:
-                    found_loc = None
+                    # Шукаємо ВСІ локації в тексті та їх позиції
+                    matches = []
                     for loc_name, coords in LOCATIONS.items():
-                        if loc_name in text:
-                            found_loc = {"name": loc_name, "coords": coords}
-                            break
+                        start_pos = text.find(loc_name)
+                        if start_pos != -1:
+                            matches.append({"name": loc_name, "coords": coords, "pos": start_pos})
                     
-                    if found_loc:
+                    if matches:
+                        # Сортуємо за появою в тексті (перша згадка - зазвичай поточне місце)
+                        matches.sort(key=lambda x: x['pos'])
+                        found_loc = matches[0]
+                        
+                        # Визначаємо кут (напрямок)
                         angle = 0
                         for dir_pattern, dir_angle in DIRECTIONS.items():
                             if re.search(dir_pattern, text):
