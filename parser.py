@@ -75,17 +75,35 @@ def parse_telegram():
             soup = BeautifulSoup(response.text, 'html.parser')
             messages = soup.find_all('div', class_='tgme_widget_message_wrap')
             
-            for msg in messages[-10:]:
+            for msg in messages[-15:]:
                 text_element = msg.find('div', class_='tgme_widget_message_text')
                 if not text_element: continue
                 
                 raw_text = text_element.get_text()
                 text = raw_text.lower()
-                time_element = msg.find('time')
-                time_str = time_element.get_text() if time_element else datetime.now().strftime("%H:%M")
                 
-                news.append({"time": time_str, "text": raw_text[:120] + "...", "channel": channel})
+                time_tag = msg.find('time')
+                if time_tag and time_tag.has_attr('datetime'):
+                    iso_time = time_tag['datetime']
+                    dt = datetime.fromisoformat(iso_time.replace('Z', '+00:00'))
+                    time_str = dt.strftime("%H:%M")
+                    sort_key = dt.timestamp()
+                else:
+                    time_str = datetime.now().strftime("%H:%M")
+                    sort_key = datetime.now().timestamp()
                 
+                channel_name = channel.replace('_', ' ').capitalize()
+                news.append({
+                    "time": time_str, 
+                    "sort_key": sort_key,
+                    "text": raw_text[:120] + "..." if len(raw_text) > 120 else raw_text,
+                    "channel": channel_name
+                })
+                
+                # Аналіз на загрози (тільки свіжі - останні 2 години)
+                if (datetime.now().timestamp() - sort_key) > 7200:
+                    continue
+
                 found_type = None
                 for pattern, t_type in THREAT_TYPES.items():
                     if re.search(pattern, text):
@@ -111,14 +129,20 @@ def parse_telegram():
                             "lat": found_loc["coords"][0],
                             "lon": found_loc["coords"][1],
                             "angle": angle,
-                            "name": f"{found_type.capitalize()} -> {found_loc['name'].capitalize()}",
-                            "time": time_str
+                            "name": f"{found_type.replace('_', ' ').capitalize()}",
+                            "location": found_loc["name"].capitalize(),
+                            "time": time_str,
+                            "sort_key": sort_key
                         })
                             
         except Exception as e:
             print(f"Error parsing {channel}: {e}")
 
-    news.sort(key=lambda x: x['time'], reverse=True)
+    # Сортування новин та загроз за часом
+    news.sort(key=lambda x: x['sort_key'], reverse=True)
+    threats.sort(key=lambda x: x['sort_key'], reverse=True)
+    
+    # Видалення дублікатів
     unique_threats = []
     seen = set()
     for t in threats:
@@ -127,7 +151,7 @@ def parse_telegram():
             unique_threats.append(t)
             seen.add(key)
 
-    data = {"threats": unique_threats, "news": news[:15]}
+    data = {"threats": unique_threats, "news": news[:20]}
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"Дані оновлено. Знайдено загроз: {len(unique_threats)}")

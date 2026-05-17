@@ -38,8 +38,26 @@ h1 { font-size: 1.5rem; color: #ff4d4d; text-transform: uppercase; margin-top: 0
 .news-item { border-bottom: 1px solid #222; padding: 10px 0; }
 .news-time { color: #ff9900; font-weight: bold; margin-right: 5px; }
 
-#map { flex-grow: 1; height: 100%; background: #000; }
+/* Анімація пульсації для іконок */
+@keyframes pulse {
+    0% { filter: drop-shadow(0 0 2px rgba(255, 77, 77, 0.5)); }
+    50% { filter: drop-shadow(0 0 10px rgba(255, 77, 77, 0.8)); }
+    100% { filter: drop-shadow(0 0 2px rgba(255, 77, 77, 0.5)); }
+}
+.pulse-animation {
+    animation: pulse 1.5s infinite ease-in-out;
+}
 
-/* Leaflet Customization */
-.leaflet-container { background: #0b0d0f !important; }
-.leaflet-bar a { background-color: #14171a !important; color: #e0e0e0 !important; border: 1px solid #333 !important; }
+/* Тактичні підказки */
+.tactical-tooltip {
+    background: rgba(20, 23, 26, 0.9) !important;
+    border: 1px solid #ff4d4d !important;
+    color: #e0e0e0 !important;
+    font-family: 'Courier New', monospace !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+}
+.custom-popup .popup-title { font-weight: bold; color: #ff4d4d; border-bottom: 1px solid #333; margin-bottom: 5px; }
+.custom-popup .popup-loc { font-size: 0.9rem; }
+.custom-popup .popup-time { font-size: 0.8rem; color: #ff9900; }
+
+.leaflet-tooltip-pane { z-index: 2000; }
