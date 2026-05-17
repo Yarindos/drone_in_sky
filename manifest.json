@@ -1,0 +1,23 @@
+{
+    "name": "Drone In Sky",
+    "short_name": "DroneSky",
+    "description": "Моніторинг повітряних загроз над Україною",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#05070a",
+    "theme_color": "#00ff41",
+    "icons": [
+        {
+            "src": "icons/shahed_real.svg",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/shahed_real.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
