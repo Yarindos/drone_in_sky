@@ -6,9 +6,15 @@ from datetime import datetime
 
 CHANNELS = [
     'vanek_nikolaev',
-    'kpszsu', # Повітряні Сили
+    'kpszsu',           # Повітряні Сили
     'monitorwar',
-    'povitryana_trivoga'
+    'povitryana_trivoga',
+    'kyiv_sky',         # Київське Небо
+    'kyiv_inform',      # Київ Інфо
+    'odesa_inf',        # Одеса Інфо
+    'kharkivlife',      # Харків Life
+    'dnepr_operativ',   # Дніпро Оперативний
+    'raketa_lviv'       # Ракета Львів
 ]
 
 # Розширена база міст та областей України
