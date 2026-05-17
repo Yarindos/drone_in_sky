@@ -9,17 +9,18 @@ CHANNELS = [
     'kpszsu',           # Повітряні Сили
     'monitorwar',
     'povitryana_trivoga',
-    'kyiv_sky',         # Київське Небо
-    'kyiv_inform',      # Київ Інфо
-    'odesa_inf',        # Одеса Інфо
-    'kharkivlife',      # Харків Life
-    'dnepr_operativ',   # Дніпро Оперативний
-    'raketa_lviv'       # Ракета Львів
+    'kyiv_sky',
+    'kyiv_inform',
+    'odesa_inf',
+    'kharkivlife',
+    'dnepr_operativ',
+    'raketa_lviv',
+    'razvedka_noe',
+    'operativnoZSU'
 ]
 
-# Розширена база міст та областей України
+# База міст (Україна + РФ для атак)
 LOCATIONS = {
-    # Обласні центри та великі міста
     "київ": [50.4501, 30.5234],
     "одес": [46.4825, 30.7233],
     "харк": [49.9935, 36.2304],
@@ -34,32 +35,22 @@ LOCATIONS = {
     "полтав": [49.5883, 34.5514],
     "черніг": [51.4982, 31.2893],
     "суми": [50.9077, 34.7981],
-    "жит": [50.2547, 28.6587],
-    "хмельн": [49.4230, 26.9871],
-    "рівн": [50.6199, 26.2516],
-    "луцьк": [50.7472, 25.3254],
-    "івано": [48.9226, 24.7111],
-    "терноп": [49.5535, 25.5948],
-    "ужгор": [48.6208, 22.2879],
-    "чернів": [48.2917, 25.9352],
-    "кропив": [48.5079, 32.2623],
-    "кремен": [49.0630, 33.4100],
-    "умань": [48.7484, 30.2218],
-    "біла церк": [49.7989, 30.1153],
-    "бровар": [50.5111, 30.7903],
-    "павлог": [48.5244, 35.8703],
-    "крамат": [48.7390, 37.5838],
-    "слов": [48.8523, 37.6242],
-    "ізмаїл": [45.3500, 28.8333],
-    "нікоп": [47.5675, 34.3983],
-    "кос": [51.2167, 24.7167],
-    "старокост": [49.7500, 27.2167], # Важливий аеродром
+    "старокост": [49.7500, 27.2167],
+    "бєлгород": [50.5997, 36.5982],
+    "курськ": [51.7373, 36.1874],
+    "брянськ": [53.2521, 34.3717],
+    "воронеж": [51.6608, 39.2003],
+    "москва": [55.7558, 37.6173],
+    "ростов": [47.2357, 39.7015],
+    "краснодар": [45.0393, 38.9872],
+    "енгельс": [51.4782, 46.1306]
 }
 
 THREAT_TYPES = {
     r"(шахед|дрон|бпла|geran|геран)": "shahed",
     r"(ракета|калібр|х-101|х-555|х-59|х-69)": "cruise",
-    r"(баліст|іскандер|с-300|с-400|кинджал|кінжал)": "ballistic"
+    r"(баліст|іскандер|с-300|с-400|кинджал|кінжал)": "ballistic",
+    r"(наші дрони|хлопок|атака бпла|лютий|бобер)": "ukr_drone"
 }
 
 DIRECTIONS = {
@@ -70,8 +61,7 @@ DIRECTIONS = {
     r"(південь|південн)": 180,
     r"(південний захід|пд-зх)": 225,
     r"(захід|західн)": 270,
-    r"(північний захід|пн-зх)": 315,
-    r"(курс на|напрямок|в бік)": "vector"
+    r"(північний захід|пн-зх)": 315
 }
 
 def parse_telegram():
@@ -85,24 +75,17 @@ def parse_telegram():
             soup = BeautifulSoup(response.text, 'html.parser')
             messages = soup.find_all('div', class_='tgme_widget_message_wrap')
             
-            for msg in messages[-10:]: # Збільшуємо до 10 повідомлень
+            for msg in messages[-10:]:
                 text_element = msg.find('div', class_='tgme_widget_message_text')
                 if not text_element: continue
                 
                 raw_text = text_element.get_text()
                 text = raw_text.lower()
-                
                 time_element = msg.find('time')
                 time_str = time_element.get_text() if time_element else datetime.now().strftime("%H:%M")
                 
-                # Додаємо новину
-                news.append({
-                    "time": time_str, 
-                    "text": raw_text[:120] + "..." if len(raw_text) > 120 else raw_text,
-                    "channel": channel
-                })
+                news.append({"time": time_str, "text": raw_text[:120] + "...", "channel": channel})
                 
-                # Визначаємо тип загрози
                 found_type = None
                 for pattern, t_type in THREAT_TYPES.items():
                     if re.search(pattern, text):
@@ -110,7 +93,6 @@ def parse_telegram():
                         break
                 
                 if found_type:
-                    # Шукаємо локацію
                     found_loc = None
                     for loc_name, coords in LOCATIONS.items():
                         if loc_name in text:
@@ -118,10 +100,9 @@ def parse_telegram():
                             break
                     
                     if found_loc:
-                        # Визначаємо кут (напрямок)
                         angle = 0
                         for dir_pattern, dir_angle in DIRECTIONS.items():
-                            if isinstance(dir_angle, int) and re.search(dir_pattern, text):
+                            if re.search(dir_pattern, text):
                                 angle = dir_angle
                                 break
                         
@@ -137,10 +118,7 @@ def parse_telegram():
         except Exception as e:
             print(f"Error parsing {channel}: {e}")
 
-    # Сортування новин за часом
     news.sort(key=lambda x: x['time'], reverse=True)
-    
-    # Видалення дублікатів загроз (схожі за типом та локацією)
     unique_threats = []
     seen = set()
     for t in threats:
@@ -149,11 +127,7 @@ def parse_telegram():
             unique_threats.append(t)
             seen.add(key)
 
-    data = {
-        "threats": unique_threats,
-        "news": news[:15]
-    }
-    
+    data = {"threats": unique_threats, "news": news[:15]}
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
     print(f"Дані оновлено. Знайдено загроз: {len(unique_threats)}")

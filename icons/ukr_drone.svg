@@ -1,0 +1,19 @@
+<svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" />
+      <feOffset dx="1" dy="1" result="offsetblur" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Український дрон (стилізований під "Бобер" або "Лютий") -->
+  <g filter="url(#shadow)">
+    <path d="M50 10 L60 25 V75 L50 85 L40 75 V25 Z" fill="#27ae60" stroke="#fff" stroke-width="1.5"/>
+    <path d="M60 40 L90 50 L90 55 L60 50 M40 40 L10 50 L10 55 L40 50" fill="#2ecc71" stroke="#fff" stroke-width="1"/>
+    <!-- Герб (мініатюрний тризуб) -->
+    <path d="M48 30 V35 M52 30 V35 M50 32 H48 M50 32 H52" stroke="yellow" stroke-width="1"/>
+  </g>
+</svg>

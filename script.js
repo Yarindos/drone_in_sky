@@ -13,20 +13,30 @@ L.control.zoom({ position: 'bottomright' }).addTo(map);
 
 // Типи іконок
 const icons = {
-    shahed: L.icon({ iconUrl: 'icons/shahed.svg', iconSize: [30, 30], iconAnchor: [15, 15] }),
-    cruise: L.icon({ iconUrl: 'icons/missile_cruise.svg', iconSize: [30, 30], iconAnchor: [15, 15] }),
-    ballistic: L.icon({ iconUrl: 'icons/missile_ballistic.svg', iconSize: [30, 30], iconAnchor: [15, 15] })
+    shahed: L.icon({ iconUrl: 'icons/shahed_real.svg', iconSize: [40, 40], iconAnchor: [20, 20] }),
+    cruise: L.icon({ iconUrl: 'icons/missile_cruise.svg', iconSize: [35, 35], iconAnchor: [17, 17] }),
+    ballistic: L.icon({ iconUrl: 'icons/missile_ballistic.svg', iconSize: [35, 35], iconAnchor: [17, 17] }),
+    ukr_drone: L.icon({ iconUrl: 'icons/ukr_drone.svg', iconSize: [40, 40], iconAnchor: [20, 20] })
 };
 
 const threats = [];
 
 // Функція для додавання загрози на мапу
 function addThreat(type, lat, lon, angle, label) {
+    // Створюємо маркер з можливістю обертання (через CSS transform)
     const marker = L.marker([lat, lon], {
-        icon: icons[type],
-        rotationAngle: angle // Потрібен плагін для обертання, але поки просто іконка
+        icon: icons[type]
     }).addTo(map);
     
+    // Обертаємо іконку за вектором руху
+    marker.on('add', function() {
+        const img = marker._icon;
+        if (img) {
+            img.style.transformOrigin = 'center';
+            img.style.transform += ` rotate(${angle}deg)`;
+        }
+    });
+
     marker.bindTooltip(label, { permanent: true, direction: 'top', className: 'threat-label' });
     threats.push(marker);
 }
