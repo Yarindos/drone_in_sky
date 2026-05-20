@@ -1,20 +1,9 @@
 {
-    "threats": [
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "19:24",
-            "sort_key": 1779305061.0
-        }
-    ],
+    "threats": [],
     "news": [
         {
-            "time": "19:36",
-            "sort_key": 1779305812.54003,
+            "time": "21:20",
+            "sort_key": 1779312031.6356,
             "text": "❗️ВорожийБпЛА вдарив по заправці в передмісті📹: Женя Зуб🤫 маєте власні кадри - чекаємо в нашому боті @kharkiv_lifebot ✨ㅤ Надіслати новину @Kharkiv_Lif...",
             "channel": "Kharkivlife"
         },
