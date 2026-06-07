@@ -7,8 +7,8 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Дніпр",
-            "time": "22:34",
-            "sort_key": 1780871649.584047
+            "time": "23:39",
+            "sort_key": 1780875569.907867
         },
         {
             "type": "shahed",
@@ -17,46 +17,46 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Крив",
-            "time": "22:13",
-            "sort_key": 1780870421.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "22:01",
-            "sort_key": 1780869678.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "21:57",
-            "sort_key": 1780869446.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.5997,
-            "lon": 36.5982,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Бєлгород",
-            "time": "21:45",
-            "sort_key": 1780868755.0
+            "time": "23:19",
+            "sort_key": 1780874394.0
         }
     ],
     "news": [
         {
-            "time": "22:34",
-            "sort_key": 1780871649.584047,
+            "time": "23:39",
+            "sort_key": 1780875569.907867,
             "text": "💥Чутно вибухи. Працює ППО. Шахед над ДніпромПідписатись ❤ Instagram🟥 Надіслати новину👇@dnepr_operativbot",
             "channel": "Dnepr operativ"
+        },
+        {
+            "time": "23:19",
+            "sort_key": 1780874394.0,
+            "text": "🛵 БпЛА ➡️ в бік Кривого Рогу з півдня.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:53",
+            "sort_key": 1780872837.0,
+            "text": "БПЛА на Польовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:51",
+            "sort_key": 1780872704.0,
+            "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:35",
+            "sort_key": 1780871748.0,
+            "text": "🛵 Група БпЛА на межі Сумської та Харківської областей ➡️ у напрямку Полтавщини.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:30",
+            "sort_key": 1780871426.0,
+            "text": "🚨 М. ХАРКІВ - ОГОЛОШЕНА ПОВІТРЯНА ТРИВОГАБПЛА на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
         },
         {
             "time": "22:13",
@@ -137,39 +137,9 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "21:36",
-            "sort_key": 1780868167.0,
-            "text": "4 БПЛА на Вільшаниㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:33",
-            "sort_key": 1780867981.0,
-            "text": "2 БПЛА на Вільшаниㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "21:32",
             "sort_key": 1780867933.0,
             "text": "🛵 Група БпЛА з Бєлгородської обл., рф ➡️ на північ Харківщини.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "21:31",
-            "sort_key": 1780867884.0,
-            "text": "🛵 Сумщина: реактивний БпЛА ➡️ на Ромни.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "21:30",
-            "sort_key": 1780867843.0,
-            "text": "БПЛА на Богодухівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:45",
-            "sort_key": 1780865109.0,
-            "text": "🛵 Сумщина: БпЛА ➡️ курсом на Путивль, Буринь.🛵 Одещина: нові групи БпЛА з моря ➡️ на Затоку, Сергіївку.",
             "channel": "Kpszsu"
         }
     ]
