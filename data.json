@@ -1,32 +1,94 @@
 {
     "threats": [
         {
+            "type": "cruise",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 0,
+            "name": "Cruise",
+            "location": "Харк",
+            "time": "22:43",
+            "sort_key": 1783464213.0
+        },
+        {
+            "type": "shahed",
+            "lat": 50.4501,
+            "lon": 30.5234,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Київ",
+            "time": "22:30",
+            "sort_key": 1783463451.0
+        },
+        {
             "type": "ballistic",
             "lat": 50.4501,
             "lon": 30.5234,
             "angle": 0,
             "name": "Ballistic",
             "location": "Київ",
-            "time": "21:32",
-            "sort_key": 1783459936.0
+            "time": "21:53",
+            "sort_key": 1783461219.0
         },
         {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
+            "type": "cruise",
+            "lat": 50.4501,
+            "lon": 30.5234,
             "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "21:03",
-            "sort_key": 1783458206.0
+            "name": "Cruise",
+            "location": "Київ",
+            "time": "21:51",
+            "sort_key": 1783461102.0
         }
     ],
     "news": [
         {
-            "time": "21:41",
-            "sort_key": 1783460478.535544,
+            "time": "22:43",
+            "sort_key": 1783464222.455858,
             "text": "Україна та Нідерланди підписали повноцінну угоду про співпрацю у сфері дронів – Drone DealБуде ще більше можливостей для спільного виробництва і розви...",
             "channel": "Operativnozsu"
+        },
+        {
+            "time": "22:43",
+            "sort_key": 1783464213.0,
+            "text": "Ще ракета по Харкову!",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:30",
+            "sort_key": 1783463451.0,
+            "text": "🛵 Реактивний БпЛА у районі Десна на Київщині!",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:24",
+            "sort_key": 1783463076.0,
+            "text": "🛵 Реактивний БпЛА у районі Гончарівське в південному напрямку",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:53",
+            "sort_key": 1783461219.0,
+            "text": "Київ повторно атакують балістикою",
+            "channel": "Operativnozsu"
+        },
+        {
+            "time": "21:53",
+            "sort_key": 1783461185.0,
+            "text": "Ще Балістика на Київ!",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:51",
+            "sort_key": 1783461102.0,
+            "text": "Ракета на Київ!",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:43",
+            "sort_key": 1783460605.0,
+            "text": "Балістика з півночі!",
+            "channel": "Kpszsu"
         },
         {
             "time": "21:34",
@@ -89,34 +151,10 @@
             "channel": "Kharkivlife"
         },
         {
-            "time": "17:59",
-            "sort_key": 1783447174.0,
-            "text": "🛵 Запоріжжя - БпЛА на околицях міста.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "17:57",
-            "sort_key": 1783447036.0,
-            "text": "🛵 Кривий Ріг - БпЛА в напрямку міста.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "17:20",
-            "sort_key": 1783444831.0,
-            "text": "☄️ Загроза застосування балістичного озброєння з півдня.",
-            "channel": "Kpszsu"
-        },
-        {
             "time": "17:05",
             "sort_key": 1783443907.0,
             "text": "Загроза балістики там де тривога🫡https://t.me/operativnoZSU/",
             "channel": "Operativnozsu"
-        },
-        {
-            "time": "17:03",
-            "sort_key": 1783443786.0,
-            "text": "🚨 М. ХАРКІВ - ОГОЛОШЕНА ПОВІТРЯНА ТРИВОГАЗагроза балістики ㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         },
         {
             "time": "15:55",
