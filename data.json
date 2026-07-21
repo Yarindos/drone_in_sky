@@ -1,47 +1,12 @@
 {
-    "threats": [
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "21:16",
-            "sort_key": 1784668561.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.4825,
-            "lon": 30.7233,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Одес",
-            "time": "20:43",
-            "sort_key": 1784666633.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "20:42",
-            "sort_key": 1784666532.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Київ",
-            "time": "20:24",
-            "sort_key": 1784665445.0
-        }
-    ],
+    "threats": [],
     "news": [
+        {
+            "time": "21:34",
+            "sort_key": 1784669681.0,
+            "text": "🛵 БпЛА  ➡️ курсом на Кременчук.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "21:16",
             "sort_key": 1784668561.0,
@@ -130,12 +95,6 @@
             "time": "17:30",
             "sort_key": 1784655041.0,
             "text": "🛵 Полтавщина: БпЛА ➡️ курсом на Зіньків.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "17:24",
-            "sort_key": 1784654697.0,
-            "text": "🛵 Реактивні БпЛА з Чернігівщини ➡️ в напрямку Київського водосховища.",
             "channel": "Kpszsu"
         },
         {
