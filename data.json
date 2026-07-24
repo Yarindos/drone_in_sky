@@ -2,31 +2,97 @@
     "threats": [
         {
             "type": "shahed",
-            "lat": 50.9077,
-            "lon": 34.7981,
+            "lat": 49.9935,
+            "lon": 36.2304,
             "angle": 0,
             "name": "Shahed",
-            "location": "Суми",
-            "time": "22:50",
-            "sort_key": 1784847023.0
+            "location": "Харк",
+            "time": "23:40",
+            "sort_key": 1784850005.0
         },
         {
-            "type": "cruise",
-            "lat": 46.4825,
-            "lon": 30.7233,
+            "type": "shahed",
+            "lat": 49.4444,
+            "lon": 32.0597,
             "angle": 0,
-            "name": "Cruise",
-            "location": "Одес",
-            "time": "22:11",
-            "sort_key": 1784844717.0
+            "name": "Shahed",
+            "location": "Черк",
+            "time": "23:15",
+            "sort_key": 1784848548.0
         }
     ],
     "news": [
         {
-            "time": "23:11",
-            "sort_key": 1784848316.665835,
+            "time": "00:10",
+            "sort_key": 1784851829.62464,
             "text": "На передовій FPV-дрони виявили та знешкодили колону ро*ійської бронетехніки. 😎 Бійці ОЗБССП «Крила Омеги» уразили танк та ББМ ворога.Перше бойове заст...",
             "channel": "Operativnozsu"
+        },
+        {
+            "time": "00:03",
+            "sort_key": 1784851428.0,
+            "text": "БПЛА на Барвінковеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:48",
+            "sort_key": 1784850539.0,
+            "text": "БПЛА на Яругуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:45",
+            "sort_key": 1784850312.0,
+            "text": "Шахед на Проліснеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:40",
+            "sort_key": 1784850005.0,
+            "text": "2х БпЛА курсом на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:36",
+            "sort_key": 1784849801.0,
+            "text": "Ще БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:28",
+            "sort_key": 1784849284.0,
+            "text": "5 БПЛа на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:20",
+            "sort_key": 1784848856.0,
+            "text": "1 БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:18",
+            "sort_key": 1784848702.0,
+            "text": "2х БпЛА курсом на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:17",
+            "sort_key": 1784848644.0,
+            "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:16",
+            "sort_key": 1784848613.0,
+            "text": "🛵 БпЛА ➡️ курсом на Харків.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "23:15",
+            "sort_key": 1784848548.0,
+            "text": "БПЛА  на Черкаську Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
         },
         {
             "time": "22:50",
@@ -74,72 +140,6 @@
             "time": "22:06",
             "sort_key": 1784844399.0,
             "text": "🚀 Керована авіаційна ракета у напрямку Одеси/Чорноморська!",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "22:06",
-            "sort_key": 1784844373.0,
-            "text": "2 ракеты Х-59 с моря летят к Татарбунарам",
-            "channel": "Vanek nikolaev"
-        },
-        {
-            "time": "21:50",
-            "sort_key": 1784843424.0,
-            "text": "БпЛА курсом на Золочівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:38",
-            "sort_key": 1784842722.0,
-            "text": "БпЛА курсом на ХарківБпЛА курсом на Чугуївㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:35",
-            "sort_key": 1784842523.0,
-            "text": "🛵 Нові групи БпЛА ➡️ в напрямку півдня Одещини (Вилкове).",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "21:34",
-            "sort_key": 1784842440.0,
-            "text": "БПЛА на Лісопаркㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:31",
-            "sort_key": 1784842307.0,
-            "text": "БПЛА на ССㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:25",
-            "sort_key": 1784841936.0,
-            "text": "Ударний БПЛА на Приколотнеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:18",
-            "sort_key": 1784841496.0,
-            "text": "БПЛА на Вільшаниㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:14",
-            "sort_key": 1784841247.0,
-            "text": "БПЛА над Дергачамиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:10",
-            "sort_key": 1784841045.0,
-            "text": "БПЛА типу Молніяㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:10",
-            "sort_key": 1784841042.0,
-            "text": "🛵 Реактивний БпЛА на півдні Одещини, вектор Татарбунари",
             "channel": "Kpszsu"
         }
     ]
