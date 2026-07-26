@@ -2,13 +2,23 @@
     "threats": [
         {
             "type": "shahed",
-            "lat": 46.6354,
-            "lon": 32.6169,
+            "lat": 50.9077,
+            "lon": 34.7981,
             "angle": 0,
             "name": "Shahed",
-            "location": "Херсон",
-            "time": "21:21",
-            "sort_key": 1785100906.0
+            "location": "Суми",
+            "time": "22:21",
+            "sort_key": 1785104487.0
+        },
+        {
+            "type": "shahed",
+            "lat": 47.8388,
+            "lon": 35.1396,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Запор",
+            "time": "22:17",
+            "sort_key": 1785104273.0
         },
         {
             "type": "shahed",
@@ -17,51 +27,47 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Харк",
-            "time": "21:03",
-            "sort_key": 1785099808.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.9077,
-            "lon": 34.7981,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Суми",
-            "time": "21:00",
-            "sort_key": 1785099642.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "20:55",
-            "sort_key": 1785099307.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "20:47",
-            "sort_key": 1785098878.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "20:35",
-            "sort_key": 1785098112.0
+            "time": "21:41",
+            "sort_key": 1785102083.0
         }
     ],
     "news": [
+        {
+            "time": "22:21",
+            "sort_key": 1785104487.0,
+            "text": "🛵 БпЛА на Суми з півночі.🛵 БпЛА в напрямку Кривого Рогу з півдня.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:17",
+            "sort_key": 1785104273.0,
+            "text": "🛵 БпЛА на Запоріжжя з  півдня.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:44",
+            "sort_key": 1785102260.0,
+            "text": "БПЛА від Циркунів на Жукиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:42",
+            "sort_key": 1785102142.0,
+            "text": "БпЛА на Циркуни, Дергачі.ㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:41",
+            "sort_key": 1785102083.0,
+            "text": "🛵 БпЛА на Харків з півночі.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:34",
+            "sort_key": 1785101672.0,
+            "text": "🛵 БпЛА на Суми з півночі.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "21:21",
             "sort_key": 1785100906.0,
@@ -144,42 +150,6 @@
             "time": "20:27",
             "sort_key": 1785097639.0,
             "text": "БПЛА на Кам'яну Яругуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:19",
-            "sort_key": 1785097158.0,
-            "text": "БПЛА  на Рогань ㅤ  Надіслати новину @Kharkiv_Lifebot 👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:19",
-            "sort_key": 1785097147.0,
-            "text": "БПЛА  на Роганьㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:18",
-            "sort_key": 1785097114.0,
-            "text": "🛵 БпЛА на Суми з півночі.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:13",
-            "sort_key": 1785096818.0,
-            "text": "🛵 БпЛА на Херсон.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:12",
-            "sort_key": 1785096720.0,
-            "text": "🛵 БпЛА в напрямку Запоріжжя з  півдня та сходу.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:11",
-            "sort_key": 1785096686.0,
-            "text": "FPV-дрон на Кутузівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         }
     ]
