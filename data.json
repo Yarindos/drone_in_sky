@@ -1,22 +1,73 @@
 {
-    "threats": [],
+    "threats": [
+        {
+            "type": "cruise",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 0,
+            "name": "Cruise",
+            "location": "Харк",
+            "time": "20:52",
+            "sort_key": 1785271943.0
+        },
+        {
+            "type": "ballistic",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 0,
+            "name": "Ballistic",
+            "location": "Харк",
+            "time": "20:49",
+            "sort_key": 1785271796.0
+        }
+    ],
     "news": [
+        {
+            "time": "21:01",
+            "sort_key": 1785272464.315863,
+            "text": "Бойова робота зведених розрахунків БПЛА ➕422 ОП БпС “Luftwaffe” та 💪ЦСО «А» СБУ по складу боєприпасів противника🫡https://t.me/operativnoZSU/",
+            "channel": "Operativnozsu"
+        },
+        {
+            "time": "20:52",
+            "sort_key": 1785271943.0,
+            "text": "Ще ракета на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "20:49",
+            "sort_key": 1785271796.0,
+            "text": "Балістика на Харківㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "20:21",
+            "sort_key": 1785270094.0,
+            "text": "БПЛА на Слобожанськеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "20:19",
+            "sort_key": 1785269971.0,
+            "text": "БПЛА на Ч.Тишки.ㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "20:11",
+            "sort_key": 1785269461.0,
+            "text": "Реактивний Шахед на Максимівку/Старий Мерчикㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "20:05",
+            "sort_key": 1785269116.0,
+            "text": "БПЛА на Люботинㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "19:05",
             "sort_key": 1785265538.0,
             "text": "БПЛА над Північною Салтівкоюㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "18:46",
-            "sort_key": 1785264360.0,
-            "text": "БПЛА на Дергачі ㅤ  Надіслати новину @Kharkiv_Lifebot 👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "18:45",
-            "sort_key": 1785264332.0,
-            "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
@@ -65,24 +116,6 @@
             "time": "15:50",
             "sort_key": 1785253828.0,
             "text": "🛵 БпЛА в напрямку Запоріжжя з півдня.🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "15:32",
-            "sort_key": 1785252736.0,
-            "text": "🛵 Реактивний БпЛА в напрямку Одеси з Чорного моря.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "15:27",
-            "sort_key": 1785252450.0,
-            "text": "🛵 БпЛА в напрямку Харкова з півночі.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "15:11",
-            "sort_key": 1785251466.0,
-            "text": "🛵 БпЛА курсом на Суми з півночі.",
             "channel": "Kpszsu"
         },
         {
