@@ -1,6 +1,46 @@
 {
     "threats": [
         {
+            "type": "cruise",
+            "lat": 47.9105,
+            "lon": 33.3918,
+            "angle": 0,
+            "name": "Cruise",
+            "location": "Крив",
+            "time": "23:10",
+            "sort_key": 1785625859.648592
+        },
+        {
+            "type": "shahed",
+            "lat": 48.4647,
+            "lon": 35.0462,
+            "angle": 270,
+            "name": "Shahed",
+            "location": "Дніпр",
+            "time": "23:10",
+            "sort_key": 1785625825.0
+        },
+        {
+            "type": "shahed",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 180,
+            "name": "Shahed",
+            "location": "Харк",
+            "time": "22:52",
+            "sort_key": 1785624745.0
+        },
+        {
+            "type": "shahed",
+            "lat": 46.975,
+            "lon": 31.9946,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Микол",
+            "time": "22:41",
+            "sort_key": 1785624067.0
+        },
+        {
             "type": "shahed",
             "lat": 47.8388,
             "lon": 35.1396,
@@ -9,49 +49,63 @@
             "location": "Запор",
             "time": "22:13",
             "sort_key": 1785622417.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "22:11",
-            "sort_key": 1785622308.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "22:02",
-            "sort_key": 1785621729.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.9077,
-            "lon": 34.7981,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Суми",
-            "time": "21:38",
-            "sort_key": 1785620294.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.6354,
-            "lon": 32.6169,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Херсон",
-            "time": "21:28",
-            "sort_key": 1785619680.0
         }
     ],
     "news": [
+        {
+            "time": "23:10",
+            "sort_key": 1785625859.648592,
+            "text": "❤️‍🩹 «Рік тому я втратив руку і маму». Історія 9-річного Матвійка з Кривого Рогу. Понад рік тому російська ракета влучила у дитячий майданчик. Мама за...",
+            "channel": "Dnepr operativ"
+        },
+        {
+            "time": "23:10",
+            "sort_key": 1785625825.0,
+            "text": "🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:58",
+            "sort_key": 1785625105.0,
+            "text": "БПЛА на Тишкиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:52",
+            "sort_key": 1785624745.0,
+            "text": "🛵 БпЛА на сході Харківщини, на південно-західний напрямок.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:50",
+            "sort_key": 1785624629.0,
+            "text": "БПЛА на Балакліюㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:41",
+            "sort_key": 1785624067.0,
+            "text": "🛵 БпЛА на сході від Миколаєва, курс на північ.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:40",
+            "sort_key": 1785624015.0,
+            "text": "БпЛА на Харків з півночіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:39",
+            "sort_key": 1785623993.0,
+            "text": "🛵 БпЛА на Харків та Суми з півночі.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "22:26",
+            "sort_key": 1785623169.0,
+            "text": "БПЛА на Козачу Лопаньㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "22:13",
             "sort_key": 1785622417.0,
@@ -101,34 +155,10 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "21:36",
-            "sort_key": 1785620195.0,
-            "text": "БПЛА на П'ятихаткиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:35",
-            "sort_key": 1785620132.0,
-            "text": "1 БПЛА над Руською Лозовоюㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:34",
-            "sort_key": 1785620061.0,
-            "text": "БПЛА на Солоницівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "21:34",
             "sort_key": 1785620049.0,
             "text": "🛵 БпЛА на Запоріжжя з півдня.🛵 БпЛА в напрямку Миколаєва зі сходу.",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "21:34",
-            "sort_key": 1785620049.0,
-            "text": "БпЛА на Польову/Пересічне, Руську Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         },
         {
             "time": "21:31",
@@ -137,39 +167,9 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "21:31",
-            "sort_key": 1785619895.0,
-            "text": "БПЛА на Безруки/Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "21:28",
             "sort_key": 1785619680.0,
             "text": "🛵 БпЛА на Херсон з півдня.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "21:26",
-            "sort_key": 1785619609.0,
-            "text": "БПЛА на Великий Бурлукㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:18",
-            "sort_key": 1785619087.0,
-            "text": "🛵 БпЛА на м.Запоріжжя зі східного напрямку.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:59",
-            "sort_key": 1785617993.0,
-            "text": "🛵 БпЛА в напрямку Миколаєва зі сходу.🛵 БпЛА на сході Дніпропетровщини, курс на захід.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:42",
-            "sort_key": 1785616963.0,
-            "text": "🛵 БпЛА на Суми з півночі та сходу.",
             "channel": "Kpszsu"
         }
     ]
