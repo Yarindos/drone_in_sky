@@ -7,18 +7,8 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Херсон",
-            "time": "02:32",
-            "sort_key": 1786156376.747915
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "02:24",
-            "sort_key": 1786155878.0
+            "time": "03:53",
+            "sort_key": 1786161182.469021
         },
         {
             "type": "shahed",
@@ -27,44 +17,82 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Суми",
-            "time": "02:20",
-            "sort_key": 1786155635.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 270,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "01:43",
-            "sort_key": 1786153422.0
+            "time": "03:07",
+            "sort_key": 1786158441.0
         }
     ],
     "news": [
         {
-            "time": "02:32",
-            "sort_key": 1786156376.748674,
+            "time": "03:53",
+            "sort_key": 1786161182.469795,
             "text": "⚠️Кацапи за ніч нібито збили 379 БПЛА.  🔥 Електросталь, Московська область.   🫡https://t.me/operativnoZSU",
             "channel": "Operativnozsu"
         },
         {
-            "time": "02:32",
-            "sort_key": 1786156376.748314,
+            "time": "03:53",
+            "sort_key": 1786161182.46946,
             "text": "🔥Просто неймовірна якість зображення на оптоволоконних дронах Пташка 17-О-50 км🫡https://t.me/operativnoZSU/",
             "channel": "Operativnozsu"
         },
         {
-            "time": "02:32",
-            "sort_key": 1786156376.747915,
+            "time": "03:53",
+            "sort_key": 1786161182.469021,
             "text": "Бійці 4️⃣40-ї ОБрМП знову викотили свої БЕК «Баракуда» озброєні FPV-дронами і точними ударами по плавзасобам противника зірвали його ротацію в районі ...",
             "channel": "Operativnozsu"
         },
         {
-            "time": "02:32",
-            "sort_key": 1786156374.788645,
+            "time": "03:53",
+            "sort_key": 1786161180.429732,
             "text": "✊У Камʼянському районі збили ворожий БпЛАПідписатись ❤ Instagram🟥 Надіслати новину👇@dnepr_operativbot",
             "channel": "Dnepr operativ"
+        },
+        {
+            "time": "03:37",
+            "sort_key": 1786160240.0,
+            "text": "БПЛА на Прудянкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:33",
+            "sort_key": 1786159995.0,
+            "text": "БПЛА на Проліснеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:30",
+            "sort_key": 1786159834.0,
+            "text": "БПЛА на Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:27",
+            "sort_key": 1786159652.0,
+            "text": "БПЛА на Барвінковеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:21",
+            "sort_key": 1786159261.0,
+            "text": "БПЛА невизначеного типу на Білий Колодязьㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:14",
+            "sort_key": 1786158886.0,
+            "text": "БПЛА на Слатинеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "03:07",
+            "sort_key": 1786158441.0,
+            "text": "🛵 БпЛА курсом на Суми зі сходу.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "02:49",
+            "sort_key": 1786157351.0,
+            "text": "БПЛА на Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
         },
         {
             "time": "02:24",
@@ -113,54 +141,6 @@
             "sort_key": 1786147410.0,
             "text": "☄️ Загроза застосування балістичного озброєння з півночі!",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "23:50",
-            "sort_key": 1786146610.0,
-            "text": "🛵 БпЛА курсом на Дніпро з південно-східного напрямку!",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "23:46",
-            "sort_key": 1786146390.0,
-            "text": "БПЛА з Харківщини на Дніпропетровщинуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "23:30",
-            "sort_key": 1786145452.0,
-            "text": "БПЛА на Краснопавлівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "23:26",
-            "sort_key": 1786145172.0,
-            "text": "🛸 Розвідувальний БпЛА в районі Дніпра, який може бути навідником ворожих засобів ураження!",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "23:22",
-            "sort_key": 1786144940.0,
-            "text": "БПЛА на Зміївㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "23:16",
-            "sort_key": 1786144606.0,
-            "text": "БПЛА на Златопільㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "23:12",
-            "sort_key": 1786144344.0,
-            "text": "БПЛА на Краснопавлівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "23:08",
-            "sort_key": 1786144110.0,
-            "text": "Реактивний БпЛА курсом на Близнюкиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         }
     ]
 }
