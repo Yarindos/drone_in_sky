@@ -1,50 +1,9 @@
 {
-    "threats": [
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "23:43",
-            "sort_key": 1786664583.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "23:33",
-            "sort_key": 1786664030.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "23:05",
-            "sort_key": 1786662311.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "22:59",
-            "sort_key": 1786661940.0
-        }
-    ],
+    "threats": [],
     "news": [
         {
-            "time": "23:53",
-            "sort_key": 1786665184.688424,
+            "time": "00:51",
+            "sort_key": 1786668711.523251,
             "text": "🔥Пожежа після удару БПЛА на території складських приміщень в Чішмі, Башкірія   🫡https://t.me/operativnoZSU/",
             "channel": "Operativnozsu"
         },
