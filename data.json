@@ -1,27 +1,18 @@
 {
-    "threats": [
+    "threats": [],
+    "news": [
         {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "03:46",
-            "sort_key": 1786765562.0
+            "time": "04:53",
+            "sort_key": 1786769624.396125,
+            "text": "Вночі Сили добра завдали удару ракетами «Фламінго» по промисловому підприємству в СамаріЗа різними даними могли бути уражені розташовані поруч підприє...",
+            "channel": "Operativnozsu"
         },
         {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "03:45",
-            "sort_key": 1786765525.0
-        }
-    ],
-    "news": [
+            "time": "04:43",
+            "sort_key": 1786769015.0,
+            "text": "БПЛА на Слатинеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "03:46",
             "sort_key": 1786765562.0,
@@ -110,12 +101,6 @@
             "time": "20:30",
             "sort_key": 1786739411.0,
             "text": "БПЛА на Дергачі ㅤ  Надіслати новину @Kharkiv_Lifebot 👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:24",
-            "sort_key": 1786739073.0,
-            "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
