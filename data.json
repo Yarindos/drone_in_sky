@@ -19,26 +19,6 @@
             "location": "Черніг",
             "time": "03:45",
             "sort_key": 1786765525.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.4825,
-            "lon": 30.7233,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Одес",
-            "time": "03:08",
-            "sort_key": 1786763334.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "03:00",
-            "sort_key": 1786762821.0
         }
     ],
     "news": [
