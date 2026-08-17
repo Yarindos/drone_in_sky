@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 50.9077,
+            "lon": 34.7981,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Суми",
+            "time": "21:26",
+            "sort_key": 1787002010.0
+        },
+        {
+            "type": "shahed",
             "lat": 48.4647,
             "lon": 35.0462,
             "angle": 180,
@@ -9,29 +19,21 @@
             "location": "Дніпр",
             "time": "20:40",
             "sort_key": 1786999212.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.9077,
-            "lon": 34.7981,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Суми",
-            "time": "20:23",
-            "sort_key": 1786998199.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "20:16",
-            "sort_key": 1786997766.0
         }
     ],
     "news": [
+        {
+            "time": "21:26",
+            "sort_key": 1787002010.0,
+            "text": "🛵 БпЛА на Суми з півночі.🛵 БпЛА на Запоріжжя з півдня.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:03",
+            "sort_key": 1787000622.0,
+            "text": "🛵 БпЛА на Суми з півночі.🛵 БпЛА на Запоріжжя з півдня.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "20:52",
             "sort_key": 1786999926.0,
@@ -123,12 +125,6 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "18:24",
-            "sort_key": 1786991045.0,
-            "text": "🛵 БпЛА над Одесою, курс північно-західний.",
-            "channel": "Kpszsu"
-        },
-        {
             "time": "17:56",
             "sort_key": 1786989403.0,
             "text": "БПЛА на Балакліюㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
@@ -144,12 +140,6 @@
             "time": "17:09",
             "sort_key": 1786986562.0,
             "text": "Через 3-6 місяців українська балістика вдарить по росії, — Михайло Федоров🫡https://t.me/operativnoZSU/",
-            "channel": "Operativnozsu"
-        },
-        {
-            "time": "16:54",
-            "sort_key": 1786985683.0,
-            "text": "💵💵 🔵🔵🔵🔵Допомога і підтримка побратимів на обладнання для пілотів дронів.Посилання на 🔥 банкуhttps://send.monobank.ua/jar/AW3H2XusYDКарта 🔥487410003967...",
             "channel": "Operativnozsu"
         }
     ]
