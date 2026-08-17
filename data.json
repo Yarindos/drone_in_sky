@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 47.8388,
+            "lon": 35.1396,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Запор",
+            "time": "14:49",
+            "sort_key": 1786978184.0
+        },
+        {
+            "type": "shahed",
             "lat": 46.4825,
             "lon": 30.7233,
             "angle": 0,
@@ -29,29 +39,21 @@
             "location": "Суми",
             "time": "14:16",
             "sort_key": 1786976211.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.6354,
-            "lon": 32.6169,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Херсон",
-            "time": "13:59",
-            "sort_key": 1786975145.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "13:53",
-            "sort_key": 1786974784.0
         }
     ],
     "news": [
+        {
+            "time": "14:52",
+            "sort_key": 1786978378.0,
+            "text": "Реактивний Шахед на Мерефу⚠️➡️ПОДПИСАТЬСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "14:49",
+            "sort_key": 1786978184.0,
+            "text": "🛵 БпЛА на Запоріжжя з півдня.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "14:43",
             "sort_key": 1786977784.0,
@@ -86,12 +88,6 @@
             "time": "13:53",
             "sort_key": 1786974784.0,
             "text": "🛵 БпЛА на Запоріжжя з півдня.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "13:42",
-            "sort_key": 1786974124.0,
-            "text": "🛵 БпЛА на Одесу з Чорного моря.",
             "channel": "Kpszsu"
         },
         {
