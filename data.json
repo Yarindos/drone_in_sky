@@ -29,16 +29,6 @@
             "location": "Черніг",
             "time": "17:13",
             "sort_key": 1787073229.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "16:51",
-            "sort_key": 1787071891.0
         }
     ],
     "news": [
