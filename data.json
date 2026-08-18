@@ -7,21 +7,23 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Київ",
-            "time": "03:02",
-            "sort_key": 1787022146.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "02:22",
-            "sort_key": 1787019773.0
+            "time": "03:17",
+            "sort_key": 1787023041.0
         }
     ],
     "news": [
+        {
+            "time": "03:17",
+            "sort_key": 1787023041.0,
+            "text": "🛵 Реактивний БпЛА на Київ повз Бровари.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "03:08",
+            "sort_key": 1787022492.0,
+            "text": "БПЛА на Печенігиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "03:02",
             "sort_key": 1787022146.0,
@@ -83,12 +85,6 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "00:03",
-            "sort_key": 1787011381.0,
-            "text": "🛵 БпЛА на півночі Чернігівщини, на південно-західний напрямок.",
-            "channel": "Kpszsu"
-        },
-        {
             "time": "23:43",
             "sort_key": 1787010236.0,
             "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
@@ -122,12 +118,6 @@
             "time": "20:52",
             "sort_key": 1786999926.0,
             "text": "БпЛА курсом на Ізюмㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:21",
-            "sort_key": 1786998096.0,
-            "text": "БПЛА на Великі Проходиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
