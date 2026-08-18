@@ -9,39 +9,15 @@
             "location": "Київ",
             "time": "05:47",
             "sort_key": 1787032034.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "05:12",
-            "sort_key": 1787029924.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.7373,
-            "lon": 36.1874,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Курськ",
-            "time": "05:11",
-            "sort_key": 1787029885.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "05:09",
-            "sort_key": 1787029799.0
         }
     ],
     "news": [
+        {
+            "time": "06:16",
+            "sort_key": 1787033794.0,
+            "text": "🛵 Реактивні БпЛА повз Славутич ➡️ курсом Десну.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "05:47",
             "sort_key": 1787032034.0,
@@ -154,12 +130,6 @@
             "time": "02:20",
             "sort_key": 1787019601.0,
             "text": "БПЛА на Печенігиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "00:43",
-            "sort_key": 1787013833.0,
-            "text": "2х БпЛА курсом на Барвінковеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         }
     ]
