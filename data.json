@@ -19,29 +19,15 @@
             "location": "Херсон",
             "time": "10:49",
             "sort_key": 1787136556.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.4825,
-            "lon": 30.7233,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Одес",
-            "time": "10:31",
-            "sort_key": 1787135487.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "10:21",
-            "sort_key": 1787134868.0
         }
     ],
     "news": [
+        {
+            "time": "11:42",
+            "sort_key": 1787139770.0,
+            "text": "БПЛА на Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "11:10",
             "sort_key": 1787137817.0,
