@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Харк",
+            "time": "15:21",
+            "sort_key": 1787239294.0
+        },
+        {
+            "type": "shahed",
             "lat": 51.4982,
             "lon": 31.2893,
             "angle": 0,
@@ -9,39 +19,15 @@
             "location": "Черніг",
             "time": "15:08",
             "sort_key": 1787238480.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "14:53",
-            "sort_key": 1787237614.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Київ",
-            "time": "14:34",
-            "sort_key": 1787236496.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.4444,
-            "lon": 32.0597,
-            "angle": 180,
-            "name": "Shahed",
-            "location": "Черк",
-            "time": "14:20",
-            "sort_key": 1787235623.0
         }
     ],
     "news": [
+        {
+            "time": "15:21",
+            "sort_key": 1787239294.0,
+            "text": "🚨 М. ХАРКІВ - ОГОЛОШЕНА ПОВІТРЯНА ТРИВОГАЗагроза БПЛА ㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "15:08",
             "sort_key": 1787238480.0,
@@ -155,12 +141,6 @@
             "sort_key": 1787232833.0,
             "text": "🏍 Реактивні БпЛА залітають на північ Чернігівщини з брянщини (рф).",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "12:59",
-            "sort_key": 1787230790.0,
-            "text": "ФПВ на Козачу Лопань 📍Онлайн мапа ворожих БпЛА у Харкові - https://t.me/+1wWU9I57xXw3NjFiㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         }
     ]
 }
