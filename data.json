@@ -9,16 +9,6 @@
             "location": "Харк",
             "time": "15:21",
             "sort_key": 1787239294.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "15:08",
-            "sort_key": 1787238480.0
         }
     ],
     "news": [
