@@ -7,8 +7,8 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Запор",
-            "time": "19:15",
-            "sort_key": 1787339718.937517
+            "time": "19:37",
+            "sort_key": 1787341038.891387
         },
         {
             "type": "ballistic",
@@ -17,8 +17,8 @@
             "angle": 0,
             "name": "Ballistic",
             "location": "Крив",
-            "time": "19:15",
-            "sort_key": 1787339718.937103
+            "time": "19:37",
+            "sort_key": 1787341038.890959
         },
         {
             "type": "shahed",
@@ -39,68 +39,18 @@
             "location": "Бєлгород",
             "time": "18:41",
             "sort_key": 1787337717.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.9105,
-            "lon": 33.3918,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Крив",
-            "time": "18:35",
-            "sort_key": 1787337337.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "18:32",
-            "sort_key": 1787337125.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "18:31",
-            "sort_key": 1787337094.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.6354,
-            "lon": 32.6169,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Херсон",
-            "time": "18:25",
-            "sort_key": 1787336739.0
-        },
-        {
-            "type": "shahed",
-            "lat": 53.2521,
-            "lon": 34.3717,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Брянськ",
-            "time": "18:21",
-            "sort_key": 1787336515.0
         }
     ],
     "news": [
         {
-            "time": "19:15",
-            "sort_key": 1787339718.937517,
+            "time": "19:37",
+            "sort_key": 1787341038.891387,
             "text": "❗️Йобана русня вдарила дроном по маршрутці в Запоріжжі. Попередньо, є постраждалі, — ОВАUpd: щонайменше 3 важкопоранених внаслідок удару.🫡https://t.me...",
             "channel": "Operativnozsu"
         },
         {
-            "time": "19:15",
-            "sort_key": 1787339718.937103,
+            "time": "19:37",
+            "sort_key": 1787341038.890959,
             "text": "🇺🇦🇩🇰Компанія Fire Point отримала всі необхідні дозволи і відкриває завод з виробництва твердого ракетного палива в Данії   📷СЕО компанії Ірина Терех п...",
             "channel": "Operativnozsu"
         },
