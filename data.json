@@ -29,42 +29,12 @@
             "location": "Черніг",
             "time": "22:25",
             "sort_key": 1787351105.0
-        },
-        {
-            "type": "ballistic",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Ballistic",
-            "location": "Київ",
-            "time": "22:00",
-            "sort_key": 1787349633.0
-        },
-        {
-            "type": "cruise",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Cruise",
-            "location": "Київ",
-            "time": "21:59",
-            "sort_key": 1787349558.0
-        },
-        {
-            "type": "cruise",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Cruise",
-            "location": "Черніг",
-            "time": "21:58",
-            "sort_key": 1787349528.0
         }
     ],
     "news": [
         {
-            "time": "22:55",
-            "sort_key": 1787352913.398553,
+            "time": "23:11",
+            "sort_key": 1787353876.094864,
             "text": "Ракетний удар по позиціях пілотів БПЛА противника зі складу 331-го полку в т.о. ОлешкахЗнімали та коригували пілоти з 🐆34-ї ОБрМП.🫡https://t.me/operat...",
             "channel": "Operativnozsu"
         },
