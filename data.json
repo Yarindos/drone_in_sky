@@ -9,52 +9,12 @@
             "location": "Запор",
             "time": "04:11",
             "sort_key": 1787371865.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "04:02",
-            "sort_key": 1787371353.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "03:48",
-            "sort_key": 1787370499.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "03:45",
-            "sort_key": 1787370320.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.6354,
-            "lon": 32.6169,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Херсон",
-            "time": "03:43",
-            "sort_key": 1787370189.0
         }
     ],
     "news": [
         {
-            "time": "04:42",
-            "sort_key": 1787373744.277856,
+            "time": "05:05",
+            "sort_key": 1787375108.233564,
             "text": "Ракетний удар по позиціях пілотів БПЛА противника зі складу 331-го полку в т.о. ОлешкахЗнімали та коригували пілоти з 🐆34-ї ОБрМП.🫡https://t.me/operat...",
             "channel": "Operativnozsu"
         },
