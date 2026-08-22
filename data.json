@@ -9,33 +9,25 @@
             "location": "Харк",
             "time": "21:29",
             "sort_key": 1787434148.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "20:51",
-            "sort_key": 1787431896.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "20:46",
-            "sort_key": 1787431566.0
         }
     ],
     "news": [
         {
+            "time": "21:47",
+            "sort_key": 1787435267.0,
+            "text": "БПЛА на Бабаї/Покотилівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:47",
+            "sort_key": 1787435235.0,
+            "text": "Шахед на Жихорㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
             "time": "21:41",
             "sort_key": 1787434896.0,
-            "text": "Реактивний БПЛА на Златопіль",
+            "text": "Реактивний БПЛА на Златопільㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
@@ -102,18 +94,6 @@
             "time": "21:07",
             "sort_key": 1787432821.0,
             "text": "БПЛА на Зміївㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:03",
-            "sort_key": 1787432605.0,
-            "text": "БПЛА на Златопільㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:01",
-            "sort_key": 1787432489.0,
-            "text": "БПЛА на Краснопавлівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
