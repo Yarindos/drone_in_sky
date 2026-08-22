@@ -13,6 +13,18 @@
     ],
     "news": [
         {
+            "time": "22:06",
+            "sort_key": 1787436365.0,
+            "text": "БПЛА на Шевченковеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "22:01",
+            "sort_key": 1787436091.0,
+            "text": "БПЛА на Богодухівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
             "time": "21:47",
             "sort_key": 1787435267.0,
             "text": "БПЛА на Бабаї/Покотилівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
@@ -82,18 +94,6 @@
             "time": "21:12",
             "sort_key": 1787433149.0,
             "text": "БПЛА на Покотилівку/Бабаїㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:10",
-            "sort_key": 1787433018.0,
-            "text": "Реактивний Шахед на Хорошевеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:07",
-            "sort_key": 1787432821.0,
-            "text": "БПЛА на Зміївㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
         },
         {
