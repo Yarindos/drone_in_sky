@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 49.9935,
+            "lon": 36.2304,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Харк",
+            "time": "21:29",
+            "sort_key": 1787434148.0
+        },
+        {
+            "type": "shahed",
             "lat": 47.8388,
             "lon": 35.1396,
             "angle": 0,
@@ -19,39 +29,51 @@
             "location": "Черніг",
             "time": "20:46",
             "sort_key": 1787431566.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.5883,
-            "lon": 34.5514,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Полтав",
-            "time": "20:42",
-            "sort_key": 1787431368.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "20:28",
-            "sort_key": 1787430538.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "20:26",
-            "sort_key": 1787430417.0
         }
     ],
     "news": [
+        {
+            "time": "21:41",
+            "sort_key": 1787434896.0,
+            "text": "Реактивний БПЛА на Златопіль",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:35",
+            "sort_key": 1787434505.0,
+            "text": "БПЛА на Мерефуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:32",
+            "sort_key": 1787434353.0,
+            "text": "БПЛА на Солоницівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:29",
+            "sort_key": 1787434149.0,
+            "text": "БПЛА на Бабаїㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:29",
+            "sort_key": 1787434148.0,
+            "text": "🏍 Харків: реактивний БпЛА в напрямку міста з півдня",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "21:27",
+            "sort_key": 1787434020.0,
+            "text": "1 БпЛА на Златопіль1 БпЛА на Близнюки/Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "21:23",
+            "sort_key": 1787433824.0,
+            "text": "Реактивний БПЛА на Златопільㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "21:18",
             "sort_key": 1787433520.0,
@@ -95,12 +117,6 @@
             "channel": "Kharkivlife"
         },
         {
-            "time": "20:54",
-            "sort_key": 1787432072.0,
-            "text": "БПЛА на Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "20:51",
             "sort_key": 1787431896.0,
             "text": "🛵 м.Запоріжжя: БпЛА в напрямку міста",
@@ -111,12 +127,6 @@
             "sort_key": 1787431566.0,
             "text": "🛵 БпЛА на Чернігівщині, курс н.п.Новгород-Сіверський",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "20:42",
-            "sort_key": 1787431368.0,
-            "text": "1 БпЛА на Краснокутськ/Полтавщинуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         },
         {
             "time": "20:40",
@@ -140,36 +150,6 @@
             "time": "20:24",
             "sort_key": 1787430290.0,
             "text": "🛵 м.Запоріжжя: БпЛА в напрямку міста зі сходу",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:17",
-            "sort_key": 1787429826.0,
-            "text": "Шахед на Краснопавлівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:09",
-            "sort_key": 1787429371.0,
-            "text": "БПЛА на Богодухівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "20:02",
-            "sort_key": 1787428946.0,
-            "text": "БПЛА на Руські Тишкиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "19:32",
-            "sort_key": 1787427125.0,
-            "text": "🛵 Харків: БпЛА в напрямку міста з півночі.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "19:26",
-            "sort_key": 1787426794.0,
-            "text": "🏍 Реактивний БпЛА на Одещині, в напрямку м.Одеса з півночі",
             "channel": "Kpszsu"
         }
     ]
