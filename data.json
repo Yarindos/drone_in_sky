@@ -29,16 +29,6 @@
             "location": "Микол",
             "time": "19:14",
             "sort_key": 1787426096.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "18:55",
-            "sort_key": 1787424919.0
         }
     ],
     "news": [
