@@ -9,19 +9,15 @@
             "location": "Крив",
             "time": "21:44",
             "sort_key": 1787607862.0
-        },
-        {
-            "type": "shahed",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Київ",
-            "time": "21:25",
-            "sort_key": 1787606743.0
         }
     ],
     "news": [
+        {
+            "time": "22:33",
+            "sort_key": 1787610818.0,
+            "text": "🛵 Ударні БпЛА на Вилкове з Чорного моря.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "21:44",
             "sort_key": 1787607862.0,
