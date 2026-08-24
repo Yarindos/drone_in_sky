@@ -1,16 +1,5 @@
 {
-    "threats": [
-        {
-            "type": "shahed",
-            "lat": 47.9105,
-            "lon": 33.3918,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Крив",
-            "time": "21:44",
-            "sort_key": 1787607862.0
-        }
-    ],
+    "threats": [],
     "news": [
         {
             "time": "22:33",
