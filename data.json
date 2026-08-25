@@ -7,31 +7,47 @@
             "angle": 0,
             "name": "Shahed",
             "location": "Харк",
-            "time": "22:36",
-            "sort_key": 1787697360.0
-        },
-        {
-            "type": "shahed",
-            "lat": 48.4647,
-            "lon": 35.0462,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Дніпр",
-            "time": "22:21",
-            "sort_key": 1787696510.0
-        },
-        {
-            "type": "shahed",
-            "lat": 47.8388,
-            "lon": 35.1396,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Запор",
-            "time": "22:04",
-            "sort_key": 1787695473.0
+            "time": "23:17",
+            "sort_key": 1787699829.0
         }
     ],
     "news": [
+        {
+            "time": "23:30",
+            "sort_key": 1787700624.0,
+            "text": "БПЛА на Близнюкиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:18",
+            "sort_key": 1787699921.0,
+            "text": "🛵 БпЛА на Одещині курс на Південне",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "23:18",
+            "sort_key": 1787699890.0,
+            "text": "БПЛА на Дергачіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:17",
+            "sort_key": 1787699829.0,
+            "text": "🏍 БпЛА в напрямку м.Харків з півночі",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "23:14",
+            "sort_key": 1787699669.0,
+            "text": "БПЛА на Безрукиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "23:06",
+            "sort_key": 1787699209.0,
+            "text": "БПЛА невизначеного типу на Шестаковеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "22:43",
             "sort_key": 1787697817.0,
@@ -87,40 +103,10 @@
             "channel": "Kharkivlife"
         },
         {
-            "time": "21:44",
-            "sort_key": 1787694254.0,
-            "text": "БПЛА на Малу Данилівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:43",
-            "sort_key": 1787694213.0,
-            "text": "БПЛА далі на Сортувальнюㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "21:41",
             "sort_key": 1787694112.0,
             "text": "☄️ Загроза застосування балістичного озброєння з півночі",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "21:41",
-            "sort_key": 1787694075.0,
-            "text": "БПЛА на Центральний паркㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:40",
-            "sort_key": 1787694004.0,
-            "text": "БПЛА на Журавлівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "21:35",
-            "sort_key": 1787693718.0,
-            "text": "БПЛА на Кулиничіㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         },
         {
             "time": "21:34",
@@ -144,12 +130,6 @@
             "time": "20:55",
             "sort_key": 1787691317.0,
             "text": "☄️ Загроза застосування балістичного озброєння з півночі",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "20:36",
-            "sort_key": 1787690198.0,
-            "text": "🛵 БпЛА на Дніпропетровщині в напрямку м.Павлоград.",
             "channel": "Kpszsu"
         }
     ]
