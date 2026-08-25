@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 47.8388,
+            "lon": 35.1396,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Запор",
+            "time": "22:04",
+            "sort_key": 1787695473.0
+        },
+        {
+            "type": "shahed",
             "lat": 49.9935,
             "lon": 36.2304,
             "angle": 0,
@@ -9,19 +19,15 @@
             "location": "Харк",
             "time": "21:34",
             "sort_key": 1787693643.0
-        },
-        {
-            "type": "ballistic",
-            "lat": 50.4501,
-            "lon": 30.5234,
-            "angle": 0,
-            "name": "Ballistic",
-            "location": "Київ",
-            "time": "20:55",
-            "sort_key": 1787691346.0
         }
     ],
     "news": [
+        {
+            "time": "22:04",
+            "sort_key": 1787695473.0,
+            "text": "🛵 Запоріжжя: БпЛА в напрямку міста з півдня",
+            "channel": "Kpszsu"
+        },
         {
             "time": "21:49",
             "sort_key": 1787694583.0,
@@ -135,12 +141,6 @@
             "sort_key": 1787688486.0,
             "text": "Реактивний БПЛА на Нову Водолагㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
             "channel": "Kharkivlife"
-        },
-        {
-            "time": "19:52",
-            "sort_key": 1787687535.0,
-            "text": "🏍 Суми: реактивний БпЛА в напрямку міста.",
-            "channel": "Kpszsu"
         }
     ]
 }
