@@ -2,36 +2,88 @@
     "threats": [
         {
             "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
+            "lat": 49.4444,
+            "lon": 32.0597,
             "angle": 0,
             "name": "Shahed",
-            "location": "Харк",
-            "time": "02:06",
-            "sort_key": 1787710007.0
-        },
-        {
-            "type": "shahed",
-            "lat": 46.975,
-            "lon": 31.9946,
-            "angle": 90,
-            "name": "Shahed",
-            "location": "Микол",
-            "time": "01:53",
-            "sort_key": 1787709233.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "01:33",
-            "sort_key": 1787708022.0
+            "location": "Черк",
+            "time": "02:35",
+            "sort_key": 1787711740.0
         }
     ],
     "news": [
+        {
+            "time": "03:05",
+            "sort_key": 1787713514.0,
+            "text": "БПЛА на Приколотнеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:56",
+            "sort_key": 1787712981.0,
+            "text": "🏍 Реактивний БпЛА східніше н.п.  Маяки на Одещині, курс східний.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "02:42",
+            "sort_key": 1787712153.0,
+            "text": "БПЛА на Кам'яну Яругуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:35",
+            "sort_key": 1787711740.0,
+            "text": "БПЛА на Черкаську Лозовуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:29",
+            "sort_key": 1787711378.0,
+            "text": "БПЛА на Слатинеㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:27",
+            "sort_key": 1787711273.0,
+            "text": "БПЛА на Старий Салтівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:23",
+            "sort_key": 1787710997.0,
+            "text": "🏍 Реактивний БпЛА в акваторії Чорного моря, курсом на Білгород-Дністровський.",
+            "channel": "Kpszsu"
+        },
+        {
+            "time": "02:19",
+            "sort_key": 1787710745.0,
+            "text": "БПЛА на Есхарㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:16",
+            "sort_key": 1787710599.0,
+            "text": "БПЛА на Вільхівкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:14",
+            "sort_key": 1787710495.0,
+            "text": "БПЛА на Шестаковоㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:13",
+            "sort_key": 1787710406.0,
+            "text": "БПЛА на Старий Салтівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "02:11",
+            "sort_key": 1787710303.0,
+            "text": "БПЛА на Терновуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
         {
             "time": "02:06",
             "sort_key": 1787710007.0,
@@ -63,34 +115,10 @@
             "channel": "Kharkivlife"
         },
         {
-            "time": "01:43",
-            "sort_key": 1787708621.0,
-            "text": "БПЛА на Локомотивㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "01:42",
-            "sort_key": 1787708549.0,
-            "text": "БПЛА на Сокільникиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "01:38",
-            "sort_key": 1787708335.0,
-            "text": "БПЛА на Аеропортㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "01:38",
             "sort_key": 1787708301.0,
             "text": "🏍 Реактивні БпЛА повз Харків, курс південний.",
             "channel": "Kpszsu"
-        },
-        {
-            "time": "01:35",
-            "sort_key": 1787708148.0,
-            "text": "БПЛА на Олексіївкуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
         },
         {
             "time": "01:33",
@@ -99,57 +127,9 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "01:29",
-            "sort_key": 1787707791.0,
-            "text": "2 БПЛА на Золочівㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "01:20",
-            "sort_key": 1787707255.0,
-            "text": "БПЛА на Ізюмㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "01:14",
-            "sort_key": 1787706884.0,
-            "text": "БПЛА на ЛозовуТраєкторія руху шахедів -  https://t.me/+1wWU9I57xXw3NjFiㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
-            "time": "01:07",
-            "sort_key": 1787706471.0,
-            "text": "БПЛА на Безрукиㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "00:49",
             "sort_key": 1787705378.0,
             "text": "🛵 БпЛА з акваторії Чорного моря, курсом на Одещину (Білгород-Дністровський район).🏍 Реактивні БпЛА на півдні Миколаївщини, курсом на Одещину.🏍 Реактив...",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "00:41",
-            "sort_key": 1787704897.0,
-            "text": "🏍 Реактивні БпЛА на заході Харківщини, курс південний.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "00:19",
-            "sort_key": 1787703566.0,
-            "text": "🏍 Реактивні БпЛА повз н.п. Березна на Чернігівщині, курс південний.🛵 БпЛА з акваторії Чорного моря, курсом на Одещину (Ізмаїльський район).",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "23:52",
-            "sort_key": 1787701962.0,
-            "text": "🏍 Реактивний БпЛА з півночі в напрямку м.Запоріжжя.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "23:49",
-            "sort_key": 1787701787.0,
-            "text": "🛵 Херсон: БпЛА над містом.",
             "channel": "Kpszsu"
         }
     ]
