@@ -2,6 +2,16 @@
     "threats": [
         {
             "type": "shahed",
+            "lat": 50.9077,
+            "lon": 34.7981,
+            "angle": 0,
+            "name": "Shahed",
+            "location": "Суми",
+            "time": "05:33",
+            "sort_key": 1787722409.0
+        },
+        {
+            "type": "shahed",
             "lat": 51.7373,
             "lon": 36.1874,
             "angle": 0,
@@ -9,29 +19,21 @@
             "location": "Курськ",
             "time": "05:00",
             "sort_key": 1787720409.0
-        },
-        {
-            "type": "shahed",
-            "lat": 51.4982,
-            "lon": 31.2893,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Черніг",
-            "time": "04:34",
-            "sort_key": 1787718857.0
-        },
-        {
-            "type": "shahed",
-            "lat": 49.9935,
-            "lon": 36.2304,
-            "angle": 0,
-            "name": "Shahed",
-            "location": "Харк",
-            "time": "04:27",
-            "sort_key": 1787718429.0
         }
     ],
     "news": [
+        {
+            "time": "05:38",
+            "sort_key": 1787722739.0,
+            "text": "1 реактивний БпЛА на ХТЗupd: без фіксаціїㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
+            "channel": "Kharkivlife"
+        },
+        {
+            "time": "05:33",
+            "sort_key": 1787722409.0,
+            "text": "🛵 БпЛА на Суми з півночі.",
+            "channel": "Kpszsu"
+        },
         {
             "time": "05:06",
             "sort_key": 1787720805.0,
@@ -135,21 +137,9 @@
             "channel": "Kpszsu"
         },
         {
-            "time": "02:42",
-            "sort_key": 1787712153.0,
-            "text": "БПЛА на Кам'яну Яругуㅤ Надіслати новину @Kharkiv_Lifebot👉ПІДПИСАТИСЯ",
-            "channel": "Kharkivlife"
-        },
-        {
             "time": "02:23",
             "sort_key": 1787710997.0,
             "text": "🏍 Реактивний БпЛА в акваторії Чорного моря, курсом на Білгород-Дністровський.",
-            "channel": "Kpszsu"
-        },
-        {
-            "time": "01:53",
-            "sort_key": 1787709233.0,
-            "text": "🏍 Реактивний БпЛА східніше Вознесенська на Миколаївщині.",
             "channel": "Kpszsu"
         }
     ]
